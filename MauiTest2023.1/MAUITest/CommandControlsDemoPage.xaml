@@ -85,27 +85,8 @@
                 Text="Swipe Rigth!"
                 FontSize="Title">
                     </Label>
-
-
-
-
                 </Grid>
             </SwipeView>
-
-            
-            
-            
-
-
-
-
-
-
-
-
-
         </VerticalStackLayout>
     </ScrollView>
-    
-   
 </ContentPage>
