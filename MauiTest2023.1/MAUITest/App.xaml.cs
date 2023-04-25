@@ -11,7 +11,7 @@
             //navPage.BarTextColor = Colors.White;
             //MainPage = navPage;
 
-            MainPage = new PresentationControlsDemoPage();
+            MainPage = new CommandControlsDemoPage();
         }
     }
 }
