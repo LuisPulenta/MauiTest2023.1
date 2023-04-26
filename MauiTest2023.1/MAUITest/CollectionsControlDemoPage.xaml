@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUITest.CollectionsControlDemoPage"
+             Title="CollectionsControlDemoPage">
+    <VerticalStackLayout
+        >
+        <!--<CarouselView>
+            <CarouselView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Argentina</x:String>
+                    <x:String>Brasil</x:String>
+                    <x:String>Uruguay</x:String>
+                    <x:String>Chile</x:String>
+                    <x:String>Paraguay</x:String>
+                    <x:String>Bolivia</x:String>
+                    <x:String>Perú</x:String>
+                    <x:String>Ecuador</x:String>
+                    <x:String>Colombia</x:String>
+                    <x:String>Venezuela</x:String>
+                </x:Array>
+            </CarouselView.ItemsSource>
+
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+
+                    <VerticalStackLayout
+                        VerticalOptions="Center"
+                        Margin="10">
+                        <Frame
+                        Padding="10"
+                        Margin="20"
+                        VerticalOptions="Center"
+                        HeightRequest="80"
+                        WidthRequest="200"
+                        BackgroundColor="Silver">
+                            <Label 
+                            TextColor="Purple"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            Text = "{Binding .}"/>
+                        </Frame>
+                    </VerticalStackLayout>
+                    
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+            
+        </CarouselView>-->
+        <!--<ListView HasUnevenRows="true"
+                  SeparatorVisibility="None">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Argentina</x:String>
+                    <x:String>Brasil</x:String>
+                    <x:String>Uruguay</x:String>
+                    <x:String>Chile</x:String>
+                    <x:String>Paraguay</x:String>
+                    <x:String>Bolivia</x:String>
+                    <x:String>Perú</x:String>
+                    <x:String>Ecuador</x:String>
+                    <x:String>Colombia</x:String>
+                    <x:String>Venezuela</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell
+                        >
+                        <VerticalStackLayout
+                        VerticalOptions="Center"
+                        Margin="10">
+                            <Frame
+                        Padding="10"
+                        Margin="20"
+                        VerticalOptions="Center"
+                        HeightRequest="80"
+                        WidthRequest="200"
+                        BackgroundColor="Silver">
+                                <Label 
+                            TextColor="Purple"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            Text = "{Binding .}"/>
+                            </Frame>
+                        </VerticalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+
+
+        <Picker>
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Argentina</x:String>
+                    <x:String>Brasil</x:String>
+                    <x:String>Uruguay</x:String>
+                    <x:String>Chile</x:String>
+                    <x:String>Paraguay</x:String>
+                    <x:String>Bolivia</x:String>
+                    <x:String>Perú</x:String>
+                    <x:String>Ecuador</x:String>
+                    <x:String>Colombia</x:String>
+                    <x:String>Venezuela</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+    </VerticalStackLayout>
+</ContentPage>

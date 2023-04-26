@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Models="clr-namespace:MAUITest.BindingDemo"
+             x:Class="MAUITest.BindingDemoPage"
+             Title="BindingDemoPage">
+
+    <ContentPage.Resources>
+        <Models:Person
+            x:Key="person"
+            Name="Lionel Messi"
+            Address="Barcelona"
+            Phone="123 456 789"/>
+    </ContentPage.Resources>
+    
+    <VerticalStackLayout
+        VerticalOptions="Center" 
+            HorizontalOptions="Center">
+        <!--<Label 
+            x:Name="lblName"
+            FontSize="30"
+            HorizontalTextAlignment="Center"
+            VerticalOptions="Center"
+            Text="{Binding Name,Source={StaticResource person}}"/>-->
+        <Label 
+            FontSize="30"
+            HorizontalTextAlignment="Center"
+            VerticalOptions="Center"
+            Text="{Binding Name}"/>
+        <Label 
+            FontSize="30"
+            HorizontalTextAlignment="Center"
+            VerticalOptions="Center"
+            Text="{Binding Phone}"/>
+        <Label 
+            FontSize="30"
+            HorizontalTextAlignment="Center"
+            VerticalOptions="Center"
+            Text="{Binding Address}"/>
+        <Button
+            x:Name="btnOk"
+            Text="Bind"
+            Clicked="btnOk_Clicked">
+            
+        </Button>
+    </VerticalStackLayout>
+</ContentPage>
